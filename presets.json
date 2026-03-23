@@ -1,0 +1,15 @@
+{
+  "CustomTest": {
+    "terrain": {
+      "scale": 75.0,
+      "octaves": 5,
+      "persistence": 0.4,
+      "lacunarity": 2.5
+    },
+    "contour": {
+      "colormap": "coolwarm",
+      "contour_levels": 12,
+      "fill_enabled": true
+    }
+  }
+}

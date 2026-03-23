@@ -1,0 +1,49 @@
+{
+  "application": {
+    "name": "Topographic Map Generator",
+    "version": "0.1.0",
+    "window_width": 1200,
+    "window_height": 800,
+    "default_seed": null,
+    "auto_generate": true
+  },
+  "terrain": {
+    "map_width": 512,
+    "map_height": 512,
+    "scale": 50.0,
+    "octaves": 6,
+    "persistence": 0.5,
+    "lacunarity": 2.0,
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "elevation_levels": 20,
+    "min_elevation": 0.0,
+    "max_elevation": 1000.0
+  },
+  "contour": {
+    "line_color": "#4a4a4a",
+    "line_width": 0.8,
+    "fill_enabled": true,
+    "colormap": "terrain",
+    "contour_levels": 15,
+    "show_elevation_labels": false
+  },
+  "features": {
+    "mountains_enabled": true,
+    "valleys_enabled": true,
+    "rivers_enabled": false,
+    "lakes_enabled": false,
+    "vegetation_enabled": false
+  },
+  "display": {
+    "dpi": 100,
+    "figure_size_x": 10,
+    "figure_size_y": 10,
+    "background_color": "#f0f0f0",
+    "grid_enabled": true
+  },
+  "seed": {
+    "seed_length": 10,
+    "seed_charset": "0123456789"
+  }
+}
